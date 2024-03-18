@@ -5,13 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/Css/sungerBob.css" rel="stylesheet">
     <title>Sünger Bob </title>
 </head>
 <body>
     <!-- Navbar - Start -->
     <header>
         <h1>Sünger Bob Kare Pantolon</h1>
-        <nav>
+        <nav id="container">
             <ul>
                 <li>
                     <a href="#" >Ana Sayfa</a>
@@ -29,12 +30,14 @@
     <!-- Content - Start -->
     <section>
         <!-- Articles - Start -->
-        <article id="karePantolon">
-            <img src="/img/karakterler.jpg" alt="Article 1" title="karakterler">
-            <h2>Sünger Bob</h2>
-            <p>SüngerBob KareŞort veya SüngerBob Karepantolon, Nickelodeon kanalı için deniz biyolojisi eğitimcisi ve
+        <article >
+            <img  class="content-header content-img" src="/img/karakterler.jpg" alt="Article 1" title="karakterler">
+            <div class="content-header" id="about">
+                <h2 >Sünger Bob</h2>
+                <p >SüngerBob KareŞort veya SüngerBob Karepantolon, Nickelodeon kanalı için deniz biyolojisi eğitimcisi ve
                 animatör Stephen Hillenburg tarafından yaratılmış bir Amerikan animasyon komedi televizyon dizisidir.
                 Diziye ismini veren SüngerBob ve arkadaşlarının Bikini Kasabası adlı su altı şehrindeki maceralarını anlatır.</p>
+            </div>
         </article>
         <hr>
         <article id="author">
@@ -56,10 +59,13 @@
                     <a href="#" >Ana Sayfa</a>
                 </li>
                 <li>
-                    <a href="#karePantolon" >Sünger Bob Hakkında </a>
+                    <a href="#about" >Sünger Bob Hakkında </a>
                 </li>
                 <li>
                     <a href="#author" >Stephen McDannell Hillenburg</a>
+                </li>
+                <li id="secret">
+                    <a href="crabBurger.html"  target="_blank" title="🙄"> 🔒 </a>
                 </li>
             </ul>
         </nav>
