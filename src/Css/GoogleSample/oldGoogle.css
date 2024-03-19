@@ -1,0 +1,52 @@
+.content-header{
+    padding:25px;
+    float: left;
+    height: 85px;
+}
+/* Navbar -Start*/
+#navbar{
+    /*margin-left: 370px; (below information gives the same effect)*/
+    position:relative;
+    left:370px;
+}
+#third-navbar{
+    background-color: rgb(98, 179, 170);
+    width: 160px;
+    height: 90px;
+    padding-bottom: 20px;
+    padding-top: -50px
+}
+#second-navbar{
+    width: 140px;
+    background-color: rgb(112, 204, 194);
+}
+#first-navbar{
+    width: 148px;
+    background-color: rgb(126, 229, 218);
+}
+/*  Navbar -End */
+footer{
+    width: 200px;
+    margin-top: 140px;
+    margin-left: 570px;
+}
+form{
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    width: 599px;
+    margin-left: 370px;
+}
+.btn-alt{
+    padding-inline: 6px;
+}
+img{
+    margin-left: 470px;
+    width: 351px;
+    height:113px;
+}
+li a,div a{
+    color:blue;
+}
+ul li{
+    list-style-type: none
+}
